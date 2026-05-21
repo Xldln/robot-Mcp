@@ -67,8 +67,9 @@ python server.py
 
 ```json
 {
-  "mcpServers": {
+  "mcp": {
     "transform_3d_mcp": {
+      "type": "stdio",
       "command": "python",
       "args": ["/path/to/transform_3d_mcp/server.py"]
     }
